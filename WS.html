@@ -1,26 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo</title>
+
+    <title>Blox Fruits - Catálogo</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
 
-    <h1>Catálogo de Pesquisa</h1>
+    <header class="topo">
+        <div class="logo">BLOX <span>FRUITS</span></div>
 
-    <input 
-        type="text" 
-        id="pesquisa" 
-        placeholder="Pesquisar produto..." >
+        <nav>
+            <a href="#">Início</a>
+            <a href="#catalogo">Frutas</a>
+            <a href="#catalogo">Valores</a>
+        </nav>
+    </header>
 
-    <div class="catalogo" id="catalogo"></div>
+    <main class="container">
+
+        <section class="introducao">
+            <h1>Catálogo de Frutas</h1>
+            <p>
+                Consulte valores, raridades e demandas
+                das frutas de Blox Fruits.
+            </p>
+        </section>
+
+        <section class="filtros">
+
+            <div class="categorias" id="categorias">
+                <button class="categoria ativa" data-categoria="Todas">
+                    Todas
+                </button>
+
+                <button class="categoria" data-categoria="Mítico">
+                    Míticas
+                </button>
+
+                <button class="categoria" data-categoria="Lendário">
+                    Lendárias
+                </button>
+
+                <button class="categoria" data-categoria="Comum">
+                    Comuns
+                </button>
+            </div>
+
+            <div class="pesquisa-area">
+                <input
+                    type="text"
+                    id="pesquisa"
+                    placeholder="Pesquisar fruta..."
+                >
+
+                <select id="ordenacao">
+                    <option value="padrao">Ordem padrão</option>
+                    <option value="nome">Nome (A-Z)</option>
+                    <option value="maior">Maior valor</option>
+                    <option value="menor">Menor valor</option>
+                </select>
+            </div>
+
+        </section>
+
+        <section class="catalogo" id="catalogo">
+            <!-- Os cards serão criados pelo JavaScript -->
+        </section>
+
+        <p id="mensagem" class="mensagem"></p>
+
+    </main>
+
+    <footer>
+        <p>Catálogo de valores feito por fã.</p>
+    </footer>
 
     <script src="Arrays.js"></script>
 
 </body>
-
 </html>
