@@ -6,7 +6,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "3.1B",   
         permanente: "4.83B",
-        ordem: 2760000000,
+        ordem: 27600000000,
         beli: "15M",
         demanda: 9,
         imagem: "Imagens/dragon.png"
@@ -16,8 +16,8 @@ const frutas = [
         nome: "Kitsune",
         raridade: "Mítico",
         regular: "460M",
-        permanente: "2.8B",
-        ordem: 4000000000,
+        permanente: "4.2B",
+        ordem: 40000000000,
         beli: "8M",
         demanda: 8,
         imagem: "Imagens/kitsune.png"
@@ -28,7 +28,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "70M",
         permanente: "1.2B",
-        ordem: 70000000,
+        ordem: 700000000,
         beli: "5M",
         demanda: 6,
         imagem: "Imagens/yeti.png"
@@ -39,7 +39,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "50M",
         permanente: "1.13B",
-        ordem: 600000000,
+        ordem: 6000000000,
         beli: "5M",
         demanda: 8,
         imagem: "Imagens/gas.png"
@@ -50,7 +50,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "120M",
         permanente: "1.11B",
-        ordem: 120000000,
+        ordem: 1200000000,
         beli: "3M",
         demanda: 10,
         imagem: "Imagens/venom.png"
@@ -61,7 +61,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "30M",
         permanente: "1.8B",
-        ordem: 300000000,
+        ordem: 3000000000,
         beli: "2.8M",
         demanda: 9,
         imagem: "Imagens/dough.png"
@@ -72,7 +72,7 @@ const frutas = [
         raridade: "Mítico",
         regular: "80M",
         permanente: "2.3B",
-        ordem: 50000000,
+        ordem: 500000000,
         beli: "5M",
         demanda: 7,
         imagem: "Imagens/tiger.png"
@@ -83,10 +83,54 @@ const frutas = [
         raridade: "Lendário",
         regular: "10M",
         permanente: "1.5B",
-        ordem: 8000000,
+        ordem: 80000000,
         beli: "1.2M",
         demanda: 9,
         imagem: "Imagens/buddha.png"
+    },
+    {
+        id: 9,
+        nome: "Rocket",
+        raridade: "Comum",
+        regular: "900K",
+        permanente: "3M",
+        ordem: 7000000,
+        beli: "5K",
+        demanda: 3,
+        imagem: "Imagens/rocket.png"
+    },
+    {
+        id: 10,
+        nome: "Blade",
+        raridade: "Comum",
+        regular: "1M",
+        permanente: "5M",
+        ordem: 8000000,
+        beli: "30K",
+        demanda: 4,
+        imagem: "Imagens/blade.png"
+    },
+    {
+        id: 11,
+        nome: "String",
+        raridade: "Comum",
+        regular: "1.1M",
+        permanente: "5M",
+        ordem: 9000000,
+        beli: "180K",
+        demanda: 1,
+        imagem: "Imagens/string.png"
+    },
+    {
+        id: 12,
+        nome: "Phoenix",
+        raridade: "Lendário",
+        regular: "2.75M",
+        permanente: "1B",
+        ordem: 75000000,
+        beli: "1.8M",
+        demanda: 6,
+        imagem: "Imagens/phoenix.png"
     }
 ];
 
